@@ -12,7 +12,9 @@
       },
       "children": [
         "flex-layout.col#left",
-        "flex-layout.col#right"
+        "flex-layout.col#right",
+        "sku-selector",
+        "product-quantity"
       ]
     },
     "flex-layout.col#left": {
@@ -30,8 +32,6 @@
         "product-name", 
         "product-identifier.product",
         "product-price", 
-        "sku-selector",
-        "product-quantity",
         "shipping-simulator",
         "flex-layout.row#qty-sku", 
         "buy-button"
