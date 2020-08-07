@@ -104,6 +104,7 @@
   "image#desktop": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
+      "maxWidth": "100%",
       "link": {
         "url": "/small-appliances/coffee-makers"
       } ,
@@ -114,6 +115,7 @@
   "image#mobile": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
+      "maxWidth": "100%",
       "link": {
         "url": "/small-appliances/coffee-makers"
       } ,
