@@ -22,11 +22,7 @@
         "product-images"
       ]
     },
-    "flex-layout.col#right": {
-      "props": {
-        "preventVerticalStretch": true,
-        "verticalAlign": "middle"
-      },
+    "flex-layout.col#right": {      
       "children": [
         "product-images",
         "product-name", 
@@ -35,14 +31,16 @@
         "shipping-simulator",
         "flex-layout.row#qty-sku", 
         "buy-button"
-      ]
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "verticalAlign": "middle"
+      }
     },
     "flex-layout.row#qty-sku": {
       "children": [
         "sku-selector",
-        "product-quantity",
-        "shipping-simulator"
-      ]
+        "product-quantity"      ]
     },    
     "product-price": {
       "props": {
