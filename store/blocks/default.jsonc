@@ -20,8 +20,7 @@
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
     }
-  },
-
+  } ,
   "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",
@@ -33,5 +32,5 @@
       "product-summary-sku-selector",
       "product-summary-buy-button"
     ]
-  }
+  } 
 }
