@@ -40,12 +40,7 @@
           "menu-item#tvs"
       ]
   },
-  // Submenu
-  "vtex.menu@2.x:submenu#major": {
-      "children": [
-          "vtex.menu@2.x:menu#major"
-      ]
-  },
+  // Submenu  
   "vtex.menu@2.x:submenu#small": {
       "children": [
           "vtex.menu@2.x:menu#small"
