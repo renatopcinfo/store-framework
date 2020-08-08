@@ -1,0 +1,27 @@
+{
+  "store.custom#landing": { 
+    "blocks": [
+      "image#landingbanner", 
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://s3-sa-east-1.amazonaws.com/static-news.dafiti.com.br/2018/topbanner/24-08-18/940x280_categorias_230818-oculos_sol_masc.jpg"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "blocks": [
+       "search-result-layout.desktop"
+    ],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": "true",
+        "maxItemsPerPage": "8",
+        "queryField": "Blue Top Retro Camera"
+      }
+    }
+  }
+}
